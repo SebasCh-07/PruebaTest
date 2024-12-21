@@ -1,0 +1,34 @@
+npx create-expo-app@latest ProductoFirebase --template blank
+
+
+cd projectName
+
+
+npx expo start
+
+NAVEGACION: stack
+	npm install @react-navigation/native
+	npm install @react-navigation/native-stack
+
+
+usar React Native Elements
+	npm install @rneui/themed @rneui/base
+	npm install react-native-vector-icons
+
+NAVEGACION: drawer
+	npm install @react-navigation/drawer
+	npm install react-native-reanimated
+	npm install react-native-safe-area-context
+	npm install react-native-gesture-handler
+	npm install @react-navigation/bottom-tabs
+
+babel.config.js
+
+import "react-native-gesture-handler";
+
+expo update
+
+expo start --clear
+
+
+
